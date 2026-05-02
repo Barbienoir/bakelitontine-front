@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  // Ajout de /api à la fin de l'URL de Render
-  baseURL: import.meta.env.VITE_API_URL || "https://bakelitontine-back.onrender.com/git/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://bakelitontine-back.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
